@@ -10,4 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
+  base:"/gestion_citas_hook/"
 })
